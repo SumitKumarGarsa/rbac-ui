@@ -1,0 +1,20 @@
+.sidebar {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+  }
+  
+  .sidebar-link:hover {
+    color: #4caf50;
+  }
+  

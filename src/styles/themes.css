@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FF5722;
+    --bg-color: #f4f4f4;
+    --text-color: #333;
+  }
+  
+  button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: var(--secondary-color);
+  }
+  
